@@ -1,8 +1,9 @@
-Chapter 3 - Easy Install Demo 
+Chapter 5 - Rules Demo 
 =============================
 This is an example project for the Effective Business Process Management with JBoss BPM book, 
-used in chapter 3. It is a project to automate the installation of the product JBoss BPM Suite 
-with preconfigured admin user and sane project defaults.
+used in chapter 5. It is a project to automate the installation of the product JBoss BPM Suite 
+with preconfigured admin user and sane project defaults along with the rules example projects 
+installed for you to explore.
 
 
 Option 1 - Install on your machine
@@ -47,6 +48,6 @@ Released versions
 -----------------
 See the tagged releases for the following versions of the product:
 
-- v1.0 - JBoss BPM Suite 6.2.0 installed on JBoss EAP 6.4.4.
+- v1.0 - JBoss BPM Suite 6.3.0, JBoss EAP 6.4.7 and rules examples installed.
 
-![BPM Suite](https://raw.githubusercontent.com/effectivebpmwithjbossbpm/chapter-3-easy-install-demo/master/docs/demo-images/bpmsuite.png)
+![BPM Suite](https://raw.githubusercontent.com/effectivebpmwithjbossbpm/chapter-5-rules-demo/master/docs/demo-images/bpmsuite.png)
