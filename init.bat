@@ -121,6 +121,10 @@ if not "%ERRORLEVEL%" == "0" (
 	GOTO :EOF
 )
 
+mkdir "%SERVER_BIN%\.niogit\"
+xcopy /Y /Q /S "%SUPPORT_DIR%\bpm-suite-demo-niogit\*" "%SERVER_BIN%\.niogit\"
+echo. 
+
 echo.
 echo - enabling demo accounts role setup in application-roles.properties file...
 echo.

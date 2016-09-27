@@ -111,6 +111,10 @@ if [ $? -ne 0 ]; then
 	exit
 fi
 
+echo "  - setting up demo projects..."
+echo
+cp -r $SUPPORT_DIR/bpm-suite-demo-niogit $SERVER_BIN/.niogit
+
 echo
 echo "  - enabling demo accounts role setup in application-roles.properties file..."
 echo
