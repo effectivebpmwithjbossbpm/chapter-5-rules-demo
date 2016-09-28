@@ -34,6 +34,7 @@ RUN sed -i "s:<installpath>.*</installpath>:<installpath>$BPMS_HOME</installpath
 	
 
 # Add support files
+COPY support/bpm-suite-demo-niogit $BPMS_HOME/bin/.niogit
 COPY support/application-roles.properties support/standalone.xml $BPMS_HOME/standalone/configuration/
 COPY support/userinfo.properties $BPMS_HOME/standalone/deployments/business-central.war/WEB-INF/classes/
 
