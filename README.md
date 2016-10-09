@@ -2,8 +2,8 @@ Chapter 5 - Rules Demo
 =============================
 This is an example project for the Effective Business Process Management with JBoss BPM book, 
 used in chapter 5. It is a project to automate the installation of the product JBoss BPM Suite 
-with preconfigured admin user and sane project defaults along with the rules example projects 
-installed for you to explore.
+with preconfigured admin user and sane project defaults along with the rules examples covered 
+in this chapter.
 
 
 Option 1 - Install on your machine
