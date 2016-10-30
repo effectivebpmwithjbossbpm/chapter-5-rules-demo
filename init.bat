@@ -2,7 +2,7 @@
 setlocal
 
 set PROJECT_HOME=%~dp0
-set DEMO=Install Demo
+set DEMO=Chapter 5 Rules Demo
 set AUTHORS=Andrew Block, Eric D. Schabell
 set PROJECT=git@github.com:effectivebpmwithjbossbpm/chapter-5-rules-demo.git
 set PRODUCT=JBoss BPM Suite
