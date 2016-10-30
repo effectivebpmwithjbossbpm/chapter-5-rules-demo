@@ -1,5 +1,5 @@
 #!/bin/sh 
-DEMO="Chapter 5 - Rules Demo"
+DEMO="Chapter 5 Rules Demo"
 AUTHORS="Andrew Block, Eric D. Schabell"
 PROJECT="git@github.com:effectivebpmwithjbossbpm/chapter-5-rules-demo.git"
 PRODUCT="JBoss BPM Suite"
@@ -21,7 +21,7 @@ clear
 echo
 echo "##########################################################################"
 echo "##                                                                      ##"   
-echo "##  Setting up the ${DEMO}                               ##"
+echo "##  Setting up the ${DEMO}                                 ##"
 echo "##                                                                      ##"   
 echo "##                                                                      ##"   
 echo "##     ####  ####   #   #      ### #   # ##### ##### #####              ##"
@@ -146,7 +146,7 @@ echo "=    http://localhost:8080/business-central  (u:erics / p:bpmsuite1!)  ="
 echo "=                                                                      ="
 echo "=  See README.md for general details to run the various demo cases.    ="
 echo "=                                                                      ="
-echo "=  $PRODUCT $VERSION $DEMO Setup Complete.          ="
+echo "=  $PRODUCT $VERSION $DEMO Setup Complete.            ="
 echo "=                                                                      ="
 echo "========================================================================"
 echo
