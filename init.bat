@@ -95,6 +95,12 @@ if not "%ERRORLEVEL%" == "0" (
 	GOTO :EOF
 )
 
+echo.
+echo - enabling demo account setup...
+echo.
+call %JBOSS_HOME%\bin\add-user.bat -a -r ApplicationRealm -u erics -p bpmsuite1! -ro analyst,admin,manager,user,kie-server,kiemgmt,rest-all --silent
+echo. 
+
 mkdir "%SERVER_BIN%\.niogit\"
 xcopy /Y /Q /S "%SUPPORT_DIR%\bpm-suite-demo-niogit\*" "%SERVER_BIN%\.niogit\"
 echo. 
