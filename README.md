@@ -61,7 +61,6 @@ Read-write access to container JBoss BPM Suite git repo is available through ssh
    ```
 
 
-
 Released versions
 -----------------
 See the tagged releases for the following versions of the product:
